@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040084C724F36BE60042B906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040084C624F36BE60042B906 /* AppDelegate.swift */; };
+		040084C924F36BE60042B906 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040084C824F36BE60042B906 /* SceneDelegate.swift */; };
+		040084CB24F36BE60042B906 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040084CA24F36BE60042B906 /* ContentView.swift */; };
+		040084CD24F36BF20042B906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040084CC24F36BF20042B906 /* Assets.xcassets */; };
+		040084D024F36BF20042B906 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040084CF24F36BF20042B906 /* Preview Assets.xcassets */; };
+		040084D324F36BF20042B906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040084D124F36BF20042B906 /* LaunchScreen.storyboard */; };
+		04DCBE7924F4CCD500EBF0B7 /* KIOSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCBE7824F4CCD500EBF0B7 /* KIOSController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040084C324F36BE60042B906 /* KeenASR Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeenASR Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040084C624F36BE60042B906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040084C824F36BE60042B906 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		040084CA24F36BE60042B906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = KeenASRDemo/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		040084CC24F36BF20042B906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040084CF24F36BF20042B906 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040084D224F36BF20042B906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040084D424F36BF20042B906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DCBE5C24F4964B00EBF0B7 /* KeenASR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KeenASR.framework; sourceTree = "<group>"; };
+		04DCBE6224F4C18200EBF0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DCBE6424F4C18200EBF0B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04DCBE6624F4C18200EBF0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DCBE6724F4C18200EBF0B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DCBE6824F4C18200EBF0B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04DCBE6924F4C18200EBF0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DCBE6A24F4C18200EBF0B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04DCBE6B24F4C18200EBF0B7 /* KeenASRDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = KeenASRDemo.xcodeproj; sourceTree = "<group>"; };
+		04DCBE6E24F4C18200EBF0B7 /* KeenASR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KeenASR.framework; sourceTree = "<group>"; };
+		04DCBE7824F4CCD500EBF0B7 /* KIOSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIOSController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040084C024F36BE60042B906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040084BA24F36BE60042B906 = {
+			isa = PBXGroup;
+			children = (
+				040084C524F36BE60042B906 /* KeenASRDemo */,
+				040084C424F36BE60042B906 /* Products */,
+				04DCBE5B24F4964A00EBF0B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040084C424F36BE60042B906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040084C324F36BE60042B906 /* KeenASR Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040084C524F36BE60042B906 /* KeenASRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				040084C624F36BE60042B906 /* AppDelegate.swift */,
+				040084C824F36BE60042B906 /* SceneDelegate.swift */,
+				04DCBE7824F4CCD500EBF0B7 /* KIOSController.swift */,
+				040084CA24F36BE60042B906 /* ContentView.swift */,
+				040084CC24F36BF20042B906 /* Assets.xcassets */,
+				040084D124F36BF20042B906 /* LaunchScreen.storyboard */,
+				040084D424F36BF20042B906 /* Info.plist */,
+				040084CE24F36BF20042B906 /* Preview Content */,
+			);
+			path = KeenASRDemo;
+			sourceTree = "<group>";
+		};
+		040084CE24F36BF20042B906 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				040084CF24F36BF20042B906 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04DCBE5B24F4964A00EBF0B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DCBE6024F4C18200EBF0B7 /* Final Project */,
+				04DCBE5C24F4964B00EBF0B7 /* KeenASR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04DCBE6024F4C18200EBF0B7 /* Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				04DCBE6124F4C18200EBF0B7 /* KeenASRDemo */,
+				04DCBE6B24F4C18200EBF0B7 /* KeenASRDemo.xcodeproj */,
+				04DCBE6E24F4C18200EBF0B7 /* KeenASR.framework */,
+			);
+			name = "Final Project";
+			sourceTree = "<group>";
+		};
+		04DCBE6124F4C18200EBF0B7 /* KeenASRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04DCBE6224F4C18200EBF0B7 /* Assets.xcassets */,
+				04DCBE6324F4C18200EBF0B7 /* Preview Content */,
+				04DCBE6524F4C18200EBF0B7 /* LaunchScreen.storyboard */,
+				04DCBE6724F4C18200EBF0B7 /* AppDelegate.swift */,
+				04DCBE6824F4C18200EBF0B7 /* ContentView.swift */,
+				04DCBE6924F4C18200EBF0B7 /* Info.plist */,
+				04DCBE6A24F4C18200EBF0B7 /* SceneDelegate.swift */,
+			);
+			path = KeenASRDemo;
+			sourceTree = "<group>";
+		};
+		04DCBE6324F4C18200EBF0B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04DCBE6424F4C18200EBF0B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04DCBE6C24F4C18200EBF0B7 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040084C224F36BE60042B906 /* KeenASRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040084D724F36BF20042B906 /* Build configuration list for PBXNativeTarget "KeenASRDemo" */;
+			buildPhases = (
+				040084BF24F36BE60042B906 /* Sources */,
+				040084C024F36BE60042B906 /* Frameworks */,
+				040084C124F36BE60042B906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeenASRDemo;
+			productName = "Light Show";
+			productReference = 040084C324F36BE60042B906 /* KeenASR Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040084BB24F36BE60042B906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Lyndsey Scott LLC";
+				TargetAttributes = {
+					040084C224F36BE60042B906 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 040084BE24F36BE60042B906 /* Build configuration list for PBXProject "KeenASRDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040084BA24F36BE60042B906;
+			productRefGroup = 040084C424F36BE60042B906 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04DCBE6C24F4C18200EBF0B7 /* Products */;
+					ProjectRef = 04DCBE6B24F4C18200EBF0B7 /* KeenASRDemo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				040084C224F36BE60042B906 /* KeenASRDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040084C124F36BE60042B906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040084D324F36BF20042B906 /* LaunchScreen.storyboard in Resources */,
+				040084D024F36BF20042B906 /* Preview Assets.xcassets in Resources */,
+				040084CD24F36BF20042B906 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040084BF24F36BE60042B906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040084C724F36BE60042B906 /* AppDelegate.swift in Sources */,
+				04DCBE7924F4CCD500EBF0B7 /* KIOSController.swift in Sources */,
+				040084C924F36BE60042B906 /* SceneDelegate.swift in Sources */,
+				040084CB24F36BE60042B906 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040084D124F36BF20042B906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040084D224F36BF20042B906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04DCBE6524F4C18200EBF0B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DCBE6624F4C18200EBF0B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040084D524F36BF20042B906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040084D624F36BF20042B906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040084D824F36BF20042B906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KeenASRDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeenASRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KeenASR.SwiftUI.Demo;
+				PRODUCT_NAME = "KeenASR Demo";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040084D924F36BF20042B906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KeenASRDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeenASRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KeenASR.SwiftUI.Demo;
+				PRODUCT_NAME = "KeenASR Demo";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040084BE24F36BE60042B906 /* Build configuration list for PBXProject "KeenASRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040084D524F36BF20042B906 /* Debug */,
+				040084D624F36BF20042B906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040084D724F36BF20042B906 /* Build configuration list for PBXNativeTarget "KeenASRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040084D824F36BF20042B906 /* Debug */,
+				040084D924F36BF20042B906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040084BB24F36BE60042B906 /* Project object */;
+}
